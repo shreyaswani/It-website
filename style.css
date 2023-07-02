@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+.list{
+  display: none;
+  visibility: hidden;
+}
+
+
+
 #ul {
     display: flex;
     float: right;
@@ -37,7 +44,10 @@
     left: 20px;
 }
 
-
+.logop{
+  display: none;
+  visibility: hidden;
+}
   
   li{
     list-style: none;
@@ -86,6 +96,11 @@
     width: 100%;
     margin-top: 60px;
     background-size: cover;
+  }
+
+  .notfd{
+    visibility: hidden;
+    display: none;
   }
 
   .banner::before{
@@ -334,6 +349,8 @@
     border-radius:5px;
     opacity: 0.9;
     filter: grayscale(0.3);
+    display: inline-block;
+    overflow: hidden;  
    }
    .cardd2{
     background-image: url(card2img.jpeg);
@@ -342,9 +359,10 @@
     background-image: url(card3img.jpeg);
    }
 
-  .cardd:hover{
+   .cardd:hover{
     transform: scale(1.05);
    }
+
    
    .cardd-info {
     display: flex;
