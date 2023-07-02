@@ -342,7 +342,9 @@
     background-image: url(card3img.jpeg);
    }
 
-
+  .cardd:hover{
+    transform: scale(1.05);
+   }
    
    .cardd-info {
     display: flex;
